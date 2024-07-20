@@ -1,0 +1,17 @@
+*{
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.top_page {
+    background: url('images/bg.jpg');
+    background-size: cover;
+}
+
+header img {
+    width: 170px;
+}
