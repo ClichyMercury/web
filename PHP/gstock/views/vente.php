@@ -89,7 +89,8 @@ if (!empty($_GET['id'])) {
                                 }
                                 ?>
                             </td>
-                            <td><a href="?id=<?= $value['id'] ?>"><i class="bx bx-edit-alt"></i></a></td>
+                            <!-- <td><a href="?id=<?= $value['id'] ?>"><i class="bx bx-recipe"></i></a></td> -->
+                            <td><a href="recuVente.php?id=<?= $value['id'] ?>"><i class="bx bx-edit-alt"></i></a></td>
                         </tr>
                        <?php
                     }
